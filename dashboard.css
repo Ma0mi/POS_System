@@ -1,0 +1,145 @@
+.navbar {
+    z-index: 1000; /* ให้ Navbar อยู่ด้านบนสุด */
+}
+
+/* Sidebar style */
+.sidebar {
+    background-color: #747474;
+    z-index: 900; /* ให้ Sidebar อยู่ต่ำกว่า Navbar */
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 250px; /* กำหนดความกว้างของ Sidebar */
+    padding-top: 56px; /* ระยะห่างจากด้านบนของ Sidebar */
+    overflow-y: auto; /* ให้ Sidebar สามารถ scroll ได้ */
+}
+
+        .sidebar a {
+            padding: 10px;
+            font-size: 18px;
+            color: rgb(255, 255, 255);
+            display: block;
+            text-decoration: none;
+        }
+
+        .sidebar a:hover {
+            background-color: #495057;
+        }
+
+        /* Content style */
+        .content {
+            padding: 20px;
+            margin-left: 250px; /* Same as sidebar width */
+            transition: margin-left 0.5s; /* Add transition for smoother effect */
+        }
+
+        /* Responsive styles */
+        @media (max-width: 768px) {
+            .sidebar {
+                width: 150px;
+            }
+
+            .content {
+                margin-left: 150px; /* Same as sidebar width */
+            }
+        }
+
+        .sales-menu {
+            background-color: #007bff;
+        }
+
+        .management-menu {
+            background-color: #fffb00;
+        }
+        .logout-bt {
+            background-color: #ff0000; 
+        }
+        .userpage {
+            background-color: #00ff22; 
+        }
+
+
+        /* CSS for the table */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th, .table td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.table th {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+.table tbody tr:hover {
+    background-color: #f2f2f2;
+}
+
+/* CSS for the container */
+.container {
+    margin-top: 20px;
+}
+
+.container h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+
+/* CSS for card styling */
+.card {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    margin-bottom: 20px;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-title {
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 24px;
+    color: #000000;
+}
+
+.card-footer {
+    background-color: #f8f9fa;
+    padding: 10px;
+    border-top: 1px solid #dee2e6;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.sales-chart {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.bar {
+    background-color: #007bff;
+    color: #fff;
+    margin-bottom: 5px;
+    padding: 5px;
+}

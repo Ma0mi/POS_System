@@ -1,0 +1,71 @@
+.cart-container {
+    background-color: #faf8f8; /* สีพื้นหลัง */
+    border: 1px solid #ced4da; /* เส้นขอบ */
+    border-radius: 5px; /* มุมโค้ง */
+    padding: 5px; /* ระยะห่างขอบ */
+    width: 180%; /* กำหนดความกว้าง */
+    margin:  auto; /* จัดตำแหน่งตรงกลาง */
+}
+
+.cart-heading {
+    margin-bottom: 10px; /* ระยะห่างด้านล่างของหัวเรื่อง */
+    color: #343a40; /* สีข้อความ */
+}
+
+.cart-items {
+    max-height: 250px; /* ความสูงสูงสุดของรายการสินค้า */
+    overflow-y: auto; /* เปิดใช้งานการเลื่อนแนวแกนตั้ง */
+}
+
+.btn-check {
+    width: 100%; /* ขยายปุ่มเต็มความกว้าง */
+}
+.btn-change {
+    width: 100%; /* ขยายปุ่มเต็มความกว้าง */
+}
+
+.cart-container th {
+    padding: 10px; /* เพิ่มระยะห่างในแต่ละข้อความ */
+}
+
+.cart-container td {
+    padding: 10px; /* เพิ่มระยะห่างในแต่ละเซลล์ข้อมูล */
+}
+
+.popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    z-index: 9999;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.popup h2 {
+    margin-top: 0;
+}
+
+.popup ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.payment-options {
+    margin-top: 20px;
+}
+
+.popup .close-popup {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.image-resize {
+    width: 200px; /* กำหนดความกว้างของภาพเป็น 200px */
+    height: auto; /* ทำให้ความสูงปรับตามอัตราส่วนของภาพโดยอัตโนมัติ */
+}

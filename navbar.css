@@ -1,0 +1,31 @@
+/* Custom CSS for navbar */
+.navbar {
+    background-color: #343a40; /* สีพื้นหลังของ navbar */
+}
+
+.navbar-brand {
+    font-size: 24px; /* ขนาดของตัวหนังสือใน navbar-brand */
+}
+
+.navbar-nav .nav-link {
+    color: #fff; /* สีของข้อความลิงก์ใน navbar */
+    margin-right: 10px; /* ระยะห่างของแต่ละลิงก์ */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ccc; /* สีของข้อความลิงก์เมื่อโฮเวอร์ */
+}
+
+.nav-item {
+    margin-right: 10px; /* ระยะห่างของแต่ละรายการใน navbar */
+}
+
+.btn-outline-danger {
+    color: #dc3545; /* สีของข้อความปุ่ม */
+    border-color: #dc3545; /* สีของเส้นขอบของปุ่ม */
+}
+
+.btn-outline-danger:hover {
+    background-color: #dc3545; /* สีพื้นหลังของปุ่มเมื่อโฮเวอร์ */
+    color: #fff; /* สีของข้อความปุ่มเมื่อโฮเวอร์ */
+}
